@@ -1,0 +1,16 @@
+C:\Users\korba\source\repos\Basic\Basic\bin\Debug\net5.0\Basic.exe
+C:\Users\korba\source\repos\Basic\Basic\bin\Debug\net5.0\Basic.deps.json
+C:\Users\korba\source\repos\Basic\Basic\bin\Debug\net5.0\Basic.runtimeconfig.json
+C:\Users\korba\source\repos\Basic\Basic\bin\Debug\net5.0\Basic.runtimeconfig.dev.json
+C:\Users\korba\source\repos\Basic\Basic\bin\Debug\net5.0\Basic.dll
+C:\Users\korba\source\repos\Basic\Basic\bin\Debug\net5.0\Basic.pdb
+C:\Users\korba\source\repos\Basic\Basic\obj\Debug\net5.0\Basic.csproj.AssemblyReference.cache
+C:\Users\korba\source\repos\Basic\Basic\obj\Debug\net5.0\Basic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korba\source\repos\Basic\Basic\obj\Debug\net5.0\Basic.AssemblyInfoInputs.cache
+C:\Users\korba\source\repos\Basic\Basic\obj\Debug\net5.0\Basic.AssemblyInfo.cs
+C:\Users\korba\source\repos\Basic\Basic\obj\Debug\net5.0\Basic.csproj.CoreCompileInputs.cache
+C:\Users\korba\source\repos\Basic\Basic\obj\Debug\net5.0\Basic.dll
+C:\Users\korba\source\repos\Basic\Basic\obj\Debug\net5.0\refint\Basic.dll
+C:\Users\korba\source\repos\Basic\Basic\obj\Debug\net5.0\Basic.pdb
+C:\Users\korba\source\repos\Basic\Basic\obj\Debug\net5.0\Basic.genruntimeconfig.cache
+C:\Users\korba\source\repos\Basic\Basic\obj\Debug\net5.0\ref\Basic.dll
