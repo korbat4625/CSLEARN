@@ -11,36 +11,42 @@ namespace Basic {
 
             Console.WriteLine("=================");
 
-            Animal animal = new Pet("Black");
-            animal.Shout();
-            Animal dog = new Dog("Doggy");
-            dog.Shout();
+            Pet dog = new Dog("dog");
+            dog.Scared();
+            dog.Run();
         }
-        abstract class Animal {
-            abstract protected string Name { get; set; }
-            abstract public void Scared();
-            abstract public void Shout();
+        interface IAnimal {
+            public string Name { get; set; }
+            public void Scared();
+            public void Shout();
         }
-        class Pet : Animal {
-            protected override string Name { get; set; }
+        abstract class Pet : IAnimal {
+            public string Name { get; set; }
             public Pet(string name) {
                 Name = name;
             }
-            public override void Scared() {
+            public virtual void Scared() {
                 Console.WriteLine("Pet scared!");
             }
 
-            public override void Shout() {
+            public virtual void Shout() {
                 Console.WriteLine("My name is:" + Name);
             }
+            abstract public void Run();
         }
 
-        class Dog : Pet, Animal {
+        class Dog : Pet {
             public Dog(string name):base(name) {
                 Name = name;
             }
+            public override void Scared() {
+                Console.WriteLine($"{Name} is scared...");
+            }
             public override void Shout() {
                 Console.WriteLine("My name is:" + Name);
+            }
+           public override void Run() {
+                Console.WriteLine($"{Name} is running!!!!!!!!!!!!!!!");
             }
         }
 
